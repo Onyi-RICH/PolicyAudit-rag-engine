@@ -1,4 +1,4 @@
-# 🛡️ Insurance-RAG-Engine  
+# 🛡️ PolicyAudit-RAG-Pipeline  
 ### Automated Policy Ingestion, Verification & AI-Powered Audit System
 
 ![Streamlit UI Screenshot](streamlit/Streamlit-screenshot.png)
