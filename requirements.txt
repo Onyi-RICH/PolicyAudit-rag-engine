@@ -1,0 +1,27 @@
+# Core
+python-dotenv>=1.0.0
+langchain-google-genai>=0.0.28
+langchain>=0.1.0
+chromadb>=0.3.29
+langchain-huggingface>=0.0.9
+langchain-community>=0.0.25
+
+# Embeddings
+transformers>=4.33.2
+torch>=2.1.0
+tensorflow>=2.14.0
+
+# PDF
+PyPDF2>=3.0.1
+pdfplumber>=0.10.0
+
+# Streamlit
+streamlit>=1.25.0
+streamlit-aggrid>=0.4.0
+
+# Networking / API
+httpx>=0.24.1
+tenacity>=8.2.2
+
+# Jupyter Notebook support
+notebook>=6.5.4

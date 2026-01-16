@@ -1,0 +1,1 @@
+.env      # Environment variables file - This tells GitHub: "Do not upload my secret key file."
