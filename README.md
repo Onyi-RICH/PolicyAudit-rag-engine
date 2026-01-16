@@ -1,3 +1,6 @@
+> 🛡️ Explainable Policy Audict AI — Gemini-Powered RAG with Exact Source Citations
+
+
 # 🛡️ PolicyAudit-RAG-Pipeline  
 ### Automated Policy Ingestion, Verification & AI-Powered Audit System
 
