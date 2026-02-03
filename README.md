@@ -1,4 +1,4 @@
-> 🛡️ Explainable Policy Audict AI — Gemini-Powered RAG with Exact Source Citations
+> 🛡️ This project explores explainable AI (Gemini-Powered RAG with Exact Source Citations) systems for regulated and public-sector environments.
 
 
 # 🛡️ PolicyAudit-RAG-Pipeline  
