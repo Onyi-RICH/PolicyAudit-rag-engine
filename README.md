@@ -2,7 +2,8 @@
 
 
 # 🛡️ PolicyAudit-RAG-Pipeline  
-### Automated Policy Ingestion, Verification & AI-Powered Audit System
+### Automated Policy Ingestion, Verification & AI-Powered Audit System 
+Designed for regulated, public-sector, and research environments where traceability and auditability are mandatory.
 
 ![Streamlit UI Screenshot](streamlit/Streamlit-screenshot.png)
 
@@ -100,6 +101,16 @@ Insurance-RAG-Engine/
 
 ---
 
+## 🧱 Architecture Overview
+
+1. PDF ingestion and semantic chunking  
+2. Embedding generation and vector storage (ChromaDB)  
+3. Deterministic similarity retrieval  
+4. Constrained LLM generation (Gemini)  
+5. Source-backed answer rendering in Streamlit UI
+
+---
+
 ## 🛣 Roadmap
 - [x] End-to-end RAG pipeline with Gemini
 - [x] Streamlit-based interactive UI
@@ -111,7 +122,7 @@ Insurance-RAG-Engine/
 ---
 
 ## 📬 Career Note
-This project was built as a real-world RAG system, not a toy demo.
+This project was developed as a production-style prototype, emphasizing reproducibility, explainability, and suitability for deployment in regulated or institutional environments.
 
 I’m actively seeking:
 - AI Engineer / ML Engineer roles
