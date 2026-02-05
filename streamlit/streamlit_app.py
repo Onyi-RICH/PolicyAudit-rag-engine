@@ -86,12 +86,12 @@ if uploaded_file and user_question:
     llm = ChatGoogleGenerativeAI(
         model=MODEL_NAME,
         google_api_key=os.getenv("GOOGLE_API_KEY"),
-        temperature=0,
+        temperature=0,   # ensure the AI remains predictable and doesn't get 'creative' or hallucinate
     )
-     # Build RetrievalQA chain
+     # Build RetrievalQA + "stuff" chain  - Protects privacy by only showing the LLM the necessary data fragments.
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
-        chain_type="stuff",
+        chain_type="stuff",     # we are not just "sending data to AI," but injecting specific, audited context
         retriever=vector_db.as_retriever(),
         return_source_documents=True,
     )
