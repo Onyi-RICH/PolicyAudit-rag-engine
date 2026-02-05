@@ -79,11 +79,11 @@ def query_policy(question, vector_db):
         system_prompt=SYSTEM_PROMPT                # Restricts to doc only
     )
 
-    # Link the AI brain with the vector DB so it searches your document
+    # Link the AI brain with the vector DB so it searches the document
     # This chain handles: 1. User Question -> 2. Search DB -> 3. Send to AI -> 4. Answer
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
-        chain_type="stuff",
+        chain_type="stuff",       # we are not just "sending data to AI," but injecting specific, audited context
         retriever=vector_db.as_retriever(),
         return_source_documents=True,              # Also return source text
     )
